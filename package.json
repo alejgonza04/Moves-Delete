@@ -1,7 +1,7 @@
 {
   "name": "moves-delete-account",
   "version": "1.0.0",
-  "main": "api/delete-account.ts",
+  "type": "module",
   "dependencies": {
     "@clerk/clerk-sdk-node": "^4.13.23"
   }
