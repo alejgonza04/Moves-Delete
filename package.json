@@ -6,11 +6,10 @@
   "build": "tsc"
 },
   "dependencies": {
-    "@clerk/clerk-sdk-node": "^4.13.23"
-  },
-  "devDependencies": {
+    "@clerk/clerk-sdk-node": "^4.13.23",
     "@types/node": "^22.15.17",
     "@vercel/node": "^5.1.16",
     "typescript": "^5.8.3"
   }
+
 }
