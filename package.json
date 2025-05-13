@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
-    "@clerk/clerk-sdk-node": "^4.13.23"
+    "@clerk/clerk-sdk-node": "^4.13.23",
+    "firebase-admin": "^13.4.0"
   }
-
 }
