@@ -18,8 +18,9 @@ export default async function handler(req, res) {
   }
 
   try {
-    await clerk.sessions.revokeAll({ userId });
+    // deleteUser will also revoke all sessions under the hood
     await clerk.users.deleteUser(userId);
+
     return res.status(200).json({ success: true });
   } catch (err) {
     console.error("delete-account error:", err);
